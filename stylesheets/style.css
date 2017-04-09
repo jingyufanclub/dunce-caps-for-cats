@@ -15,7 +15,7 @@ body {
 
 main {
   display: grid;
-  grid-gap: 6.66%;
+  grid-gap: 6.9%;
   grid-template-columns: 1fr 2fr;
   grid-template-areas:
     "header header"
@@ -24,7 +24,11 @@ main {
 
 .header {
   grid-area: header;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
+}
+
+#title {
+  width: 45vw;
 }
 
 .hats {
@@ -38,7 +42,7 @@ main {
 }
 
 #dunce {
-  height: 45vh;
+  height: 42vh;
 }
 
 #kivicks {
