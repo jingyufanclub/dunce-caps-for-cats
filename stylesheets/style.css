@@ -37,13 +37,24 @@ main {
   grid-gap: 6.9%;
 }
 
+#dunce {
+  height: 45vh;
+  position: relative;
+}
+
 .cats {
   grid-area: cats;
   margin-top: 10vh;
 }
 
+#rufus {
+  height: 70vh;
+  position: relative;
+}
+
 h1 {
-  font-size: 3.6vw;
+  font-size: 3.7vw;
+  position: relative;
 }
 
 ul {
