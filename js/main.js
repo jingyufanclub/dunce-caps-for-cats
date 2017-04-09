@@ -4,6 +4,6 @@ window.onload = function () {
       title = document.getElementsByTagName("h1"),
       rufus = document.getElementById("rufus");
 
-  Draggable.create([dunce, title, rufus]);
+  Draggable.create([dunce, title, rufus], {zIndexBoost:true});
 
 }
