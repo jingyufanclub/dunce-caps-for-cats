@@ -41,6 +41,10 @@ main {
   grid-area: cats;
 }
 
+#dunce {
+  position: relative;
+}
+
 h1{
   font-size: 3.6vw;
 }

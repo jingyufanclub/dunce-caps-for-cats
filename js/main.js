@@ -1,7 +1,9 @@
-window.onload = function() {
+window.onload = function () {
 
-  var images = document.getElementsByTag('img')
+  var dunce = document.getElementById("dunce"),
+      header = document.getElementsByClassName("header"),
+      rufus = document.getElementById("rufus");
 
-  Draggable.create(images)
+  Draggable.create([dunce, header, rufus]);
 
 }
