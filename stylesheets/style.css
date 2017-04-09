@@ -58,6 +58,10 @@ main {
   height: 70vh;
 }
 
+.draggable {
+  cursor: url(../images/rufus_cursor.png), auto !important;
+}
+
 img {
   position: relative;
 }
