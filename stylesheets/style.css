@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+section {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
