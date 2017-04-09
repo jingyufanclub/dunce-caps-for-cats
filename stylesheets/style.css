@@ -1,16 +1,17 @@
 html {
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  font-family: 'Carter One', cursive;
 }
 
 .container {
-  align-items: center;
-  display: flex;
   height: 100vh;
-  justify-content: center;
+  width: 90vw;
+  margin: auto;
 }
 
 main {
@@ -19,7 +20,7 @@ main {
   grid-template-columns: 1fr 2fr;
   grid-template-areas:
     "header header"
-    "hats cat";
+    "hats cats";
 }
 
 .header {
@@ -32,10 +33,20 @@ main {
 
 .hats ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   grid-gap: 6.9%;
 }
 
 .cats {
   grid-area: cats;
+}
+
+h1{
+  font-size: 3.6vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
