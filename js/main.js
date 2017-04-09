@@ -1,9 +1,11 @@
 window.onload = function () {
 
-  var dunce = document.getElementById("dunce"),
+  // save these variables for later
+  /* var dunce = document.getElementById("dunce"),
+      kivicks = document.getElementById("kivicks"),
       rufus = document.getElementById("rufus"),
-      title = document.getElementsByTagName("h1");
-      
-  Draggable.create([dunce, rufus, title])
+      title = document.getElementById("title"); */
+
+  Draggable.create("img");
 
 }

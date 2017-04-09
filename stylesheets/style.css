@@ -5,13 +5,12 @@ html {
 
 body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  font-family: 'Carter One', cursive;
 }
 
 .container {
   height: 100vh;
   width: 90vw;
-  margin: auto;
+  margin: 8vh auto;
 }
 
 main {
@@ -25,6 +24,7 @@ main {
 
 .header {
   grid-area: header;
+  margin-bottom: 2vh;
 }
 
 .hats {
@@ -33,13 +33,16 @@ main {
 
 .hats ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   grid-gap: 6.9%;
 }
 
 #dunce {
   height: 45vh;
-  position: relative;
+}
+
+#kivicks {
+  height: 25vh;
 }
 
 .cats {
@@ -49,12 +52,9 @@ main {
 
 #rufus {
   height: 70vh;
-  position: relative;
 }
 
-h1 {
-  color: #150662;
-  font-size: 3.7vw;
+img {
   position: relative;
 }
 
