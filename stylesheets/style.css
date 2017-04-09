@@ -39,10 +39,7 @@ main {
 
 .cats {
   grid-area: cats;
-}
-
-#dunce {
-  position: relative;
+  margin-top: 10vh;
 }
 
 h1{
