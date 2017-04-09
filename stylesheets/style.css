@@ -3,12 +3,39 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
-section {
+.container {
   align-items: center;
   display: flex;
   height: 100vh;
   justify-content: center;
+}
+
+main {
+  display: grid;
+  grid-gap: 6.66%;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "header header"
+    "hats cat";
+}
+
+.header {
+  grid-area: header;
+}
+
+.hats {
+  grid-area: hats;
+}
+
+.hats ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 6.9%;
+}
+
+.cats {
+  grid-area: cats;
 }
