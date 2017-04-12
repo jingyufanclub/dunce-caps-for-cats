@@ -42,6 +42,11 @@ main {
   grid-gap: 6.9%;
 }
 
+.cats {
+  grid-area: cats;
+  margin-top: 10vh;
+}
+
 #dunce {
   height: 42vh;
 }
@@ -50,16 +55,11 @@ main {
   height: 25vh;
 }
 
-.cats {
-  grid-area: cats;
-  margin-top: 10vh;
-}
-
-#rufus {
+#ghost {
   height: 70vh;
 }
 
-#ghost {
+#rufus {
   height: 70vh;
 }
 
