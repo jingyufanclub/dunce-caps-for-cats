@@ -9,23 +9,20 @@ body {
   height: 100%;
 }
 
-.container {
+main {
+  display: grid;
+  grid-gap: 6.9%;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-areas:
+    "header header header"
+    "hats hats cats";
   width: 90vw;
   margin: 8vh auto;
 }
 
-main {
-  display: grid;
-  grid-gap: 6.9%;
-  grid-template-columns: 1fr 2fr;
-  grid-template-areas:
-    "header header"
-    "hats cats";
-}
-
 .header {
   grid-area: header;
-  margin-bottom: 3vh;
+  margin-bottom: 1em;
 }
 
 #title {
@@ -38,7 +35,7 @@ main {
 
 .hats ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   grid-gap: 6.9%;
 }
 
@@ -57,6 +54,10 @@ main {
 
 #ghost {
   height: 70vh;
+}
+
+#wurtz {
+  height: 25vh;
 }
 
 #rufus {
