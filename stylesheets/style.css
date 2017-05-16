@@ -17,7 +17,7 @@ main {
     "header header header"
     "hats hats cats";
   width: 90vw;
-  margin: 8vh auto;
+  margin: 3em auto;
 }
 
 .header {
@@ -41,27 +41,27 @@ main {
 
 .cats {
   grid-area: cats;
-  margin-top: 10vh;
+  margin-top: 4em;
 }
 
 #dunce {
-  height: 42vh;
+  height: 20vw;
 }
 
 #kivicks {
-  height: 25vh;
+  height: 15vw;
 }
 
 #ghost {
-  height: 70vh;
+  height: 40vw;
 }
 
 #wurtz {
-  height: 25vh;
+  height: 15vw;
 }
 
 #rufus {
-  height: 70vh;
+  height: 40vw;
 }
 
 .draggable {
