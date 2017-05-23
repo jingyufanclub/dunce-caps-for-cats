@@ -4,4 +4,4 @@
 + Animated with GSAP and Draggable.
 + Meowdeled by Rufus.
 
-[jingyufanclub.co/dunce-caps-for-cats](http://jingyufanclub.co/dunce-caps-for-cats)
+[duncecapsforcats.com](http://duncecapsforcats.com)
