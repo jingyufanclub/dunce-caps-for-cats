@@ -9,6 +9,7 @@ body {
   height: 100vh;
   font-family: Monaco, Consolas, monospace;
   font-size: 1em;
+  overflow: hidden;
 }
 
 main {
