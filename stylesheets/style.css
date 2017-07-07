@@ -6,10 +6,10 @@ html {
 body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   background-repeat: no-repeat;
-  height: 100vh;
+  /*height: 100vh;*/
   font-family: Monaco, Consolas, monospace;
   font-size: 1em;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 main {
