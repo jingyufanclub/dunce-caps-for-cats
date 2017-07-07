@@ -26,6 +26,10 @@ main {
 .header {
   grid-area: header;
   margin-bottom: 1em;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 2vw;
+  z-index: 1;
 }
 
 #title {
